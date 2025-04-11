@@ -1,1 +1,301 @@
-/* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu {
+  padding: 133px 36.52px 138px 50px;
+  white-space: nowrap;
+}
+
+.header__links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 32px;
+  font-family: Raleway, Roboto, normal;
+  font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.header__links-list-item {
+  list-style-type: circle;
+}
+
+.logo-black {
+  width: 148px;
+  height: 105px;
+  margin: 92px 184px 96px 10px;
+}
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.address_list {
+  font-family: Raleway, Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.address_wrap {
+  white-space: wrap;
+}
+
+.main {
+  position: relative;
+}
+
+.cover {
+  position: relative;
+  display: flex;
+  width: 1100px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cover__title {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+.aligned-text {
+  position: absolute;
+  padding: 165px 764px 477px 50px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.aligned-text_center {
+  position: absolute;
+  padding: 300px 380.5px 342px 380.5px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.aligned-text_right {
+  position: absolute;
+  padding: 435px 50px 207px 663px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 700;
+  font-size: 100px;
+  letter-spacing: 30px;
+}
+
+.cover__description-text {
+  position: absolute;
+  padding: 668px 413px 61px 50px;
+  color: white;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  border: 1px solid white;
+  padding: 12px 32px 11px 31px;
+  color: white;
+  font-family: Raleway, Roboto, normal;
+  font-size: 22px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.lot {
+  width: 1052px;
+  height: 723px;
+  margin: 180px 24px 0 24px;
+}
+.title-lots {
+  padding-left: 40px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 700px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 334px);
+  justify-content: center;
+  column-gap: 25px;
+  padding-top: 27px;
+}
+
+.card-title {
+  padding: 48px 40px 0px 40px;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.card_one {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url(/images/card-lot-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.description_one {
+  padding: 274px 40px 48px 40px;
+  color: white;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.card_two {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url(/images/card-lot-02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.description_two {
+  padding: 30px 40px 48px 40px;
+  color: white;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.card_three {
+  position: relative;
+  width: 334px;
+  height: 596px;
+  background-image: url(/images/card-lot-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.description_three {
+  padding: 126px 40px 48px 40px;
+  color: white;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+}
+
+.see_more_botton {
+  padding-top: 30px;
+  padding-left: 40px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about {
+  display: flex;
+  margin: 120px 24px 0 24px;
+}
+.about_logo {
+  position: relative;
+  display: flex;
+  padding: 35px 72px 320px 47px;
+}
+.about_logo_background {
+  position: relative;
+  z-index: 0;
+  width: 240px;
+  height: 240px;
+  background-image: url(/images/Ellipse.svg);
+  background-repeat: no-repeat;
+}
+.about_logo-white {
+  position: absolute;
+  z-index: 1;
+  width: 148px;
+  height: 114px;
+  margin: 64px 45.52px 62px 46.48px;
+}
+.about__column {
+  padding: 136px 0 0px 0;
+}
+.about__title {
+  padding-bottom: 100px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 700px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.about__text {
+  padding-bottom: 24px;
+  font-family: "Raleway" "Roboto";
+  font-weight: 400px;
+  font-size: 20px;
+  line-height: 24px;
+}
+.second_paragraph {
+  padding-bottom: 0px;
+  line-height: 24px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  padding-top: 180px;
+}
+
+.footer_address {
+  padding: 0 154.03px 82px 50px;
+  font-family: Raleway, Roboto, normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+.footer__menu {
+  padding: 1px 177.5px 115px 0px;
+}
+.footer__menu-list-item {
+  text-align: center;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.footer__social-list {
+  display: grid;
+  grid-template-columns: repeat(3, 48px);
+  column-gap: 48px;
+  list-style-type: none;
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
