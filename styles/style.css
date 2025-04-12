@@ -1,5 +1,6 @@
 .header {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
   justify-content: center;
   align-items: center;
 }
@@ -29,10 +30,9 @@
 .logo-black {
   width: 148px;
   height: 105px;
-  margin: 92px 184px 96px 10px;
+  margin: 92px 184px 96px 0px;
 }
 .address {
-  display: flex;
   align-items: center;
   
 }
@@ -275,7 +275,7 @@
 }
 
 .footer_address {
-  padding: 0 154.03px 82px 50px;
+  padding: 0 160px 82px 50px;
   font-family: Raleway, Roboto, normal;
   font-weight: 400;
   font-size: 18px;
@@ -294,6 +294,7 @@
   grid-template-columns: repeat(3, 48px);
   column-gap: 48px;
   list-style-type: none;
+  padding-left: 36px;
 }
 
 .footer__social-icon {
